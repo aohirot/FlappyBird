@@ -16,6 +16,9 @@
 		982737B0254799BB005D7853 /* FlappyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982737AF254799BB005D7853 /* FlappyBirdTests.swift */; };
 		982737BB254799BB005D7853 /* FlappyBirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982737BA254799BB005D7853 /* FlappyBirdUITests.swift */; };
 		982737C925479C8F005D7853 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982737C825479C8F005D7853 /* GameScene.swift */; };
+		982737CD2547A37F005D7853 /* failSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982737CA2547A37F005D7853 /* failSound.mp3 */; };
+		982737CE2547A37F005D7853 /* gemGet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982737CB2547A37F005D7853 /* gemGet.mp3 */; };
+		982737CF2547A37F005D7853 /* successSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 982737CC2547A37F005D7853 /* successSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		982737BA254799BB005D7853 /* FlappyBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBirdUITests.swift; sourceTree = "<group>"; };
 		982737BC254799BB005D7853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		982737C825479C8F005D7853 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		982737CA2547A37F005D7853 /* failSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failSound.mp3; sourceTree = "<group>"; };
+		982737CB2547A37F005D7853 /* gemGet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gemGet.mp3; sourceTree = "<group>"; };
+		982737CC2547A37F005D7853 /* successSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = successSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				98273798254799B3005D7853 /* AppDelegate.swift */,
 				9827379A254799B3005D7853 /* SceneDelegate.swift */,
 				9827379C254799B3005D7853 /* ViewController.swift */,
+				982737CA2547A37F005D7853 /* failSound.mp3 */,
+				982737CB2547A37F005D7853 /* gemGet.mp3 */,
+				982737CC2547A37F005D7853 /* successSound.mp3 */,
 				9827379E254799B3005D7853 /* Main.storyboard */,
 				982737A1254799BB005D7853 /* Assets.xcassets */,
 				982737A3254799BB005D7853 /* LaunchScreen.storyboard */,
@@ -235,8 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982737CD2547A37F005D7853 /* failSound.mp3 in Resources */,
 				982737A5254799BB005D7853 /* LaunchScreen.storyboard in Resources */,
+				982737CE2547A37F005D7853 /* gemGet.mp3 in Resources */,
 				982737A2254799BB005D7853 /* Assets.xcassets in Resources */,
+				982737CF2547A37F005D7853 /* successSound.mp3 in Resources */,
 				982737A0254799B3005D7853 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
